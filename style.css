@@ -29,7 +29,7 @@ h1:hover {
 }
 
 #svg:hover{
-    transform: rotate3d(3);
+    transform: rotate(10deg);
 }
 
 div {
