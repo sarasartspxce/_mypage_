@@ -1,0 +1,55 @@
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/TapeFont-Regular.ttf);
+}
+
+p {
+    color: #DF6363;
+    font-size: 55px;
+    text-align: left;
+    font-family: myfont;
+    z-index: 11; 
+}
+
+.animation {
+    width: 10vw;
+    height: auto;
+    padding-left: 5vw;
+}
+
+p:hover {
+    color: #B6D8FF;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#button {
+    position: fixed;
+    top: 5vh;
+    right: 5vh;
+
+    width: 5vb; 
+    height: auto;
+
+    z-index: 10; 
+}
+
+#button:hover {
+    opacity: 0.2;
+}
+
+#board {
+    margin-top: -5vw;
+    width: 100vw;
+    height: auto;
+    z-index: 1; 
+    filter: blur(10px);
+    transition: filter 0.5s ease
+}
+
+#board:hover{
+    filter: blur(0px);
+}
