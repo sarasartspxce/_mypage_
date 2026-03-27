@@ -25,6 +25,11 @@ h1:hover {
 #svg{
     width: 30vw;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+#svg:hover{
+    transform: rotate3d(3);
 }
 
 div {
