@@ -9,6 +9,7 @@ p {
     text-align: left;
     font-family: myfont;
     z-index: 11; 
+    transition: transform 0.3s ease;
 }
 
 .animation {
@@ -19,6 +20,7 @@ p {
 
 p:hover {
     color: #B6D8FF;
+    transform: scale(1.05);
 }
 
 
@@ -35,10 +37,12 @@ a {
     height: auto;
 
     z-index: 10; 
+    transition: transform 0.3s ease;
 }
 
 #button:hover {
     opacity: 0.2;
+    transform: scale(1.1);
 }
 
 #board {

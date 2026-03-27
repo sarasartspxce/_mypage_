@@ -8,19 +8,23 @@ p {
     font-size: 55px;
     text-align: center;
     font-family: myfont;
+    transition: transform 0.3s ease;
 }
 
 p:hover {
     color: #B6D8FF;
+    transform: scale(1.05); /* wird größer */
 }
 h1 {
     color: #DF6363;
     font-size: 40px;
     text-align: center;
     font-family: myfont;
+    transition: transform 0.3s ease;
 }
 h1:hover {
     color: #B6D8FF;
+    transform: scale(1.05);
 }
 #svg{
     width: 30vw;
